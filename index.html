@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samrat's Portfolio Website</title>
+    <title>Samrat&apos;s Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="body1">
@@ -16,14 +16,14 @@
                 <ul><!-- These are the links that I am going to put in my navigation bar -->
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Me</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact Me</a></li>
                     <li><a href="#">More</a></li>
                 </ul>
             </nav>
             <div class="header-text">
                 <p>Student at University of Cincinnati</p>
-                <h1>Hi, my name is <span>Samrat Gharti</span>. <br>I'm a Computer Science major.</h1>
+                <h1>Hi, my name is <span>Samrat Gharti</span>. <br>I&apos;m a Computer Science major.</h1>
             </div>
         </div>
     </div>
@@ -35,37 +35,65 @@
                     <img src="images1.jpg">
                 </div>
                 <div class="about-col-2">
-                    <h1 class="aboutme">About me</h1>
+                    <h1 class="sub_title">About me</h1>
                     <p class="aboutmewriting">
-                        I am a Computer Science student with a strong interest 
-                        in technology and community. I come from Nepal and now 
-                        study in the USA. This gives me a global view and a 
-                        practical approach. I have done community service, 
-                        from organizing charity events to leading the Student 
-                        Council in high school. This experience developed my 
-                        skills in communication, persuasion and managing groups.
-                            I have interned at the Asian Institute of Technology 
-                        and Management in Nepal. There, I learned about office 
-                        coordination and teamwork. I am also creating an Eco 
-                        Cooler, using my technical and creative skills to solve 
-                        real problems.
-                            Outside of my studies, I am committed to fitness through 
-                        calisthenics, cycling and swimming. These activities build 
-                        resilience and focus, qualities I wish to bring to every 
-                        project.</p>
+                        Hey! I&apos;m Samrat Gharti, a Computer Science student 
+                        at the University of Cincinnati with a big interest in 
+                        using technology to solve real problems. Whether it&apos;s building 
+                        a robot that sorts waste or creating a simple web app to help 
+                        small businesses manage inventory, I enjoy turning ideas into 
+                        useful projects.<br><br>I&apos;m originally from Nepal, where I grew up
+                         in a family that worked incredibly hard to give me opportunities 
+                         they never had. That&apos;s something I carry with me every day — it 
+                         motivates me to keep learning, improving, and giving back in 
+                         whatever ways I can.<br><br>Right now, I&apos;m exploring different areas 
+                         of tech to figure out what really excites me — web development,
+                          robotics, UI/UX design, maybe even cybersecurity. I&apos;m still 
+                          early in the journey, but I love diving into new tools, building
+                           things, and seeing them come to life.<br><br>Outside of coding, I 
+                           enjoy cooking Nepali food, reading literature, learning languages 
+                           (currently Japanese!), and connecting with new people. I&apos;m always 
+                           open to collaboration and learning from others — 
+                           so feel free to reach out!</p>
                         <div class="tabs-title">
-                            <p class="tab-links first-tab-links">Skills</p>
-                            <p class="tab-links">Experience</p>
-                            <p class="tab-links">Education</p>
+                            <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                            <p class="tab-links" onclick="opentab('education', event)">Education</p>
                         </div>
-                        <div class="tab-contents">
+                        <div class="tab-contents active-tab" id="skills">
                             <ul>
-                                <li><span>Student at University of Cincinnati<br></span></li>
+                                <li><span> Web Development</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Building responsive, modern websites</span></li>
+                                <li><span> App Development</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Building Android/iOS applications</span></li>
+                                <li><span> Database Management</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Storing and handling data efficiently</span></li>
+                                <li><span> API Integration</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Connecting different software programs</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Desk Assistant & Social Media Handler (August 2023 - December 2023)</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Asian Institute of Technology & Management</span></li>
+                                <li><span>Private SAT Math Tutor (November 2022 – April 2023)</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Self-Employed</span></li>
+                                <li><span>Typist (November 2020 – July 2023)</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Himlal Designs</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span> B.S. of Computer Science (Expected Graduation: 2029)</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;University of Cincinnati</span></li>
+                                <li><span> High School Degree (Specializing in Computer Science)</span> <br>&nbsp;&nbsp;&nbsp;&nbsp;Campion Academy</span></li>
                             </ul>
                         </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Resume Section Starts -->
+     <div class="projects">
+        <div id="container">
+            <h1 class="sub_title">Projects</h1>
+            <div id="projects_list">
+                
+            </div>
+        </div>
+     </div>
+    <script src="whatToDoOnClick.js"></script>
 </body>
 </html>
