@@ -159,4 +159,12 @@ margin: 10px 0;
 .tab-contents.active-tab{
     display:block;
 }
+/* Start of the Projects section css */
+.projects{
+padding: 30px 0;
+}
 
+.projects_list{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+}
