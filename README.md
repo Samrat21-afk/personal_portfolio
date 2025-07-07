@@ -19,3 +19,7 @@ The core structure has been set up, and I'm actively working on adding:
 - [Future Plan] Hosting with GitHub Pages / Netlify
 
 ## 📁 Folder Structure (subject to change)
+
+## Suggestions for myself
+
+- The color scheme for the website is ugly. After the completion, change the color scheme. 

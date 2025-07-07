@@ -170,3 +170,38 @@ padding: 30px 0;
     grid-gap: 40px;
     margin-top: 50px;
 }
+
+.projects_list div{
+    background: #b7410e6a;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 1s, translate 0.75s;
+}
+
+.projects_list div i{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.projects_list div h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.projects_list div a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.projects_list div:hover{
+    background-color: #b7410ecc;
+    transform: translateY(-20px);
+}
+
+/* The styling and everything for the projects section is completed here. Now, the next section is contactme. */
