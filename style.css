@@ -107,6 +107,8 @@ color: #B7410E;
 .sub_title{
     font-size: 60px;
     font-weight:600;
+    margin: 10px;
+    padding: 10px;
 }
 
 .aboutmewriting{
@@ -204,4 +206,38 @@ padding: 30px 0;
     transform: translateY(-20px);
 }
 
-/* The styling and everything for the projects section is completed here. Now, the next section is contactme. */
+/* The styling and everything for the projects section is completed here. Now, the next section is Skills. */
+
+.skills_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    grid-gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills_list div{
+    background: #e233336a;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+.skills_list div h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.skillspage{
+    width: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.learning{
+    background-color: white;
+}
+
+/* End of the skills page */
